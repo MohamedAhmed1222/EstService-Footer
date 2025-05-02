@@ -1,5 +1,5 @@
-body {
-    font-family: 'Arial', sans-serif;
+body  {
+    font-family: Arial, sans-serif;
     background-color: #f0f4f8;
     direction: rtl;
 }
@@ -9,45 +9,55 @@ body {
     text-align: center;
 }
 
-.footer-logo {
+.footer-logo  {
     max-width: 70px;
     margin-bottom: 20px;
+
 }
 
-.footer-section {
+.social-icons  {
+    margin-top: 20px;
+}
+
+/*Instagram*/
+.social-icons a {
+    color: #e1306c;
+}
+
+/*Gmail*/
+.social-icons a:nth-child(2)  {
+    color: #ea4335;
+}
+
+/*Facebook*/
+.social-icons a:nth-child(3)  {
+    color: #040404;
+}
+
+.footer-section h4  {
+    margin-bottom: 10px;
+    color: #020202;
+}
+
+.social-icons a  {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.footer-section p  {
+    margin: 0;
+    color: #666;
+}
+
+.footer-section  {
     display: inline-block;
     width: 20%;
     vertical-align: top;
     margin-right: 50px;
 }
 
-.footer-section:last-child {
+.footer-section:last-child  {
     margin-right: 0;
-}
-
-.footer-section h4 {
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.footer-section p {
-    margin: 0;
-    color: #666;
-}
-
-.social-icons {
-    margin-top: 20px;
-}
-
-/* Facebook color */
-.social-icons a {
-    color: #007bff;
-    margin-right: 10px;
-    font-size: 20px;
-}
-
-.social-icons a:hover {
-    color: #007bff;
 }
 
 .copyright {
