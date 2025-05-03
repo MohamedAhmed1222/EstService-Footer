@@ -19,6 +19,11 @@ body  {
     margin-top: 20px;
 }
 
+.social-icons a  {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
 /*Instagram*/
 .social-icons a {
     color: #e1306c;
@@ -37,11 +42,6 @@ body  {
 .footer-section h4  {
     margin-bottom: 10px;
     color: #020202;
-}
-
-.social-icons a  {
-    margin-right: 10px;
-    font-size: 20px;
 }
 
 .footer-section p  {
